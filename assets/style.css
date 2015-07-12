@@ -1,0 +1,82 @@
+html, body {
+	background: linear-gradient(#4C4C4C, #3C3C3C);
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+#main-panel {
+	padding: 1em;
+	border-radius: 0.3em;
+	box-shadow: 0px 2px 6px #222;
+}
+
+.sub-panel {
+	margin-bottom: 1em;
+}
+
+form input, form button {
+	padding: 0.5em;
+	font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+#chat-display {
+	padding: 0.5em;
+	background-color: #FFF;
+	border: 1px solid #AAA;
+	height: 300px;
+	overflow-y: scroll;
+}
+
+footer {
+	text-align: center;
+	left: 0;
+	right: 0;
+	font-weight: 300;
+}
+
+#app-title {
+	font-size: 2em;
+	font-weight: 300;
+	text-align: center;
+}
+
+footer a {
+	color: #FFF;
+	font-weight: 600;
+	text-decoration: none;
+}
+
+.content-seperator {
+	border: 3px solid #AAA;
+	border-radius: 3px;
+}
+
+#chat-display span {
+	display: inline-block;
+}
+
+.chat-message-channel {
+	font-weight: 500;
+	width: 15%;
+}
+
+.chat-message-source {
+	font-weight: 500;
+	color: #444;
+	width: 15%;
+}
+
+.chat-message-wide {
+	width: 30%;
+}
+
+.status-message {
+	color: #3B3;
+}
+
+.error-message {
+	color: #E66;
+}
